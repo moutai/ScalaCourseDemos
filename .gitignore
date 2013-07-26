@@ -18,3 +18,16 @@ bin/hosts
 .cache
 .worksheet
 bin/*
+*.log
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+>>>>>>> 9527127d96fa9e913f5525c6b1cdd55779b1dd14
